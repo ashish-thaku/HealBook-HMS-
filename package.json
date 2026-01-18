@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "axois": "^0.0.1-security",
+    "axios": "^0.0.1-security",
     "react-router-dom": "^7.9.5",
     "react-toastify": "^11.0.5"
   }
