@@ -7,8 +7,8 @@ export const AppContext= createContext()
 
 const AppContextProvider = (props)=>{
 
-    const currencySymbol = '$'
-    const backendUrl= https://healbook-hms.onrender.com
+    const currencySymbol = '$';
+    const backendUrl= https://healbook-hms.onrender.com;
 
     const [doctors,setDoctors] = useState([])
     const [token,setToken] = useState(localStorage.getItem("token") || null)
