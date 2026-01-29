@@ -14,10 +14,10 @@ const Footer = () => {
                 <div>
                     <p className='text-xl font-medium mb mb-5'>COMPANY</p>
                     <ul className='flex flex-col gap-2 text-gray-600'>
-                        <li>Home</li>
-                        <li>About us</li>
-                        <li>Contact us</li>
-                        <li>Privacy Policy</li>
+                        <a href='/' onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Home</a>
+                        <a href='/about'>About us</a>
+                        <a href='/contact'>Contact us</a>
+                        {/* <li>Privacy Policy</li> */}
                     </ul>
                 </div>
 
@@ -25,8 +25,8 @@ const Footer = () => {
                 <div>
                     <p className='text-xl font-medium mb-5' >GET IN TOUCH</p>
                     <ul className='flex flex-col gap-2 text-gray-600'>
-                        <li>+1-212-456-3395</li>
-                        <li>jaanbacho@gmail.com</li>
+                        <li>81149012564</li>
+                        <li>ashishthaku001@gmail.com</li>
                     </ul>
                 </div>
             </div>
